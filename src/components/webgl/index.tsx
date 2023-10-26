@@ -139,16 +139,16 @@ function Content({
     []
   );
 
-  // const textures = useTexture([
-  //   "/images/girl.png",
-  //   "/images/moon.png",
-  //   "/images/background.png",
-  // ]);
   const textures = useTexture([
-    "/images/yumcha_boy.png",
-    "/images/yumcha_man.png",
-    "/images/yumcha_background.png",
+    "/images/girl.png",
+    "/images/moon.png",
+    "/images/background.png",
   ]);
+  // const textures = useTexture([
+  //   "/images/yumcha_boy.png",
+  //   "/images/yumcha_man.png",
+  //   "/images/yumcha_background.png",
+  // ]);
 
   const [newWidth, newHeight] = useResizeMesh(textures[0], viewport);
 
